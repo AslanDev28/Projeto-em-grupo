@@ -1,7 +1,7 @@
 # Projeto-em-grupo
 Ajude um microempreendedor!
 
-(CABEÇALHO, MENU E PAGINA PRINCIPAL
+(CABEÇALHO, MENU E PAGINA PRINCIPAL)
 
 Aslan    
 Brenda
@@ -13,9 +13,12 @@ Brenda
 Jessica
 Cleice
 
+
 (PAGINA EQUIPE E FORMULÁRIO)
 
 
 Kaique
+
 Mayara
+
 
