@@ -20,12 +20,11 @@ Cleice
 Kaique <br>
 Mayara
 
-
+<h1> ***********PALHETA DE CORES DO PROJETO**********</h1>
 <div aligh="center">
 <img src="https://user-images.githubusercontent.com/113717097/193120445-a61595f2-e54d-4ed4-a7fb-f70eedd58b0c.jpeg" width="800px"  />
 </div>
 
-****************PALHETA DE CORES DO PROJETO*************
   /* Color Theme Swatches in Hex */<br>
 .My-Color-Theme-1-hex { color: #190A00; }<br>
 .My-Color-Theme-2-hex { color: #F57C2C; } <br>
