@@ -23,10 +23,10 @@ Mayara
 ****************PALHETA DE CORES DO PROJETO*************
   /* Color Theme Swatches in Hex */
 .My-Color-Theme-1-hex { color: #190A00; }<br>
-.My-Color-Theme-2-hex { color: #F57C2C; }
-.My-Color-Theme-3-hex { color: #F26100; }
-.My-Color-Theme-4-hex { color: #5C3921; }
-.My-Color-Theme-5-hex { color: #F26100; }
+.My-Color-Theme-2-hex { color: #F57C2C; } <br>
+.My-Color-Theme-3-hex { color: #F26100; } <br>
+.My-Color-Theme-4-hex { color: #5C3921; }<br>
+.My-Color-Theme-5-hex { color: #F26100; }<br>
 
 /* Color Theme Swatches in RGBA */
 .My-Color-Theme-1-rgba { color: rgba(25, 10, 0, 1); }
