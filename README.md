@@ -20,6 +20,8 @@ Cleice
 Kaique <br>
 Mayara
 
+<img src="AdobeColor-MyColorTheme.jpeg alt="My adobe color"/>
+
 ****************PALHETA DE CORES DO PROJETO*************
   /* Color Theme Swatches in Hex */<br>
 .My-Color-Theme-1-hex { color: #190A00; }<br>
