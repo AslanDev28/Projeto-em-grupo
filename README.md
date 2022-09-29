@@ -42,3 +42,4 @@ Mayara
 .My-Color-Theme-4-hsla { color: hsla(24, 47, 24, 1); }<br>
 .My-Color-Theme-5-hsla { color: hsla(24, 100, 47, 1); }<br>
 
+ADOBE COLORS https://color.adobe.com/pt/mythemes
