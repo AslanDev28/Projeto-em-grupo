@@ -10,14 +10,14 @@ Brenda
 (PAGINA PRODUTOS E SERVIÇOS)
 
 
-Jessica
+Jessica <br>
 Cleice
 
 
 (PAGINA EQUIPE E FORMULÁRIO)
 
 
-Kaique
+Kaique <br>
 Mayara
 
 ****************PALHETA DE CORES DO PROJETO*************
