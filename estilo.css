@@ -12,54 +12,71 @@
 
 }
  /* CABECALHO*/
-header > h1 {
+
+header {
+    width: 100%auto;
+    height: 120px;
+}
+
+
+h1 {
     font-family: 'Bungee Spice', cursive;
     letter-spacing: 1px;
     color: rgb(189, 167, 152);
     text-shadow: 4px 2px 3px black;
     font-size: 3.9em;
-    margin: auto;
+
+
 }
 
+.span1 {
+    animation: text .8s cubic-bezier(0.175, 0.885, 0.20, 1.350);
 
+}
 
+@keyframes text {
+    from {
+        margin-right: 50%;
+        
+    }
+    
+}
 
 header > h3 {
     color: rgb(180, 179, 179);
     font-family: 'Carton', cursive;
     text-shadow: 4px 2px 3px black;
-    margin-bottom: -60px;
+    margin-bottom: -80px;
     
     
 }
 h1, h3 {
-   padding: 30px;
+   padding: 20px;
 }
 
 header  {
-    background-image: linear-gradient(48deg, #190a008e,#f57c2cce,#f26100c5,#5c3921a9,#F26100 );
-    background-size: 300% 150%;
+    background-image: linear-gradient(48deg, #190a00b0,#f57c2cce,#f26100c5,#5c3921d0,#F26100 );
+    background-size: 300% 300%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.226);
     text-align: center;
     padding: 80px;
     margin-top: -70px;
-    max-width: 100%;
-    animation:infinite colors 15s ease;
+    max-width: 100%;   
+    height: 120px;
+    
+    animation:infinite alternate colors 10s ease;
     
 }
 
 @keyframes colors {
-    0% {
+    from {
     background-position: 0% 50%;
 
     }
-    50% {
-    background-position: 100% 50%;
+    to {
+    background-position: 100% 0%;
     }
-    100%{
-    background-position: 0% 50%;
-
-    }
+   
 }
 
 /*MENU-NAV*/
@@ -72,14 +89,14 @@ header  {
     padding: 15px;
     position: absolute;
     z-index: 1;
-    margin-top: -250px;
+    margin-top: -210px;
 }
 
 .barra {
     background-color: #202020;
     height: 100%;
     width: 200px;
-    margin-top: -285px;
+    margin-top: -250px;
     position: absolute;
     transition: all .2s linear;
     left: -200px;
@@ -165,14 +182,30 @@ body {
     
 }
 
-
-
-div > main {
-    background-color:#ac5216e0;
-    padding: 20px;
-    max-width: 500px;
-    min-width: 300px;
-    margin: auto auto auto auto;
-    margin-top: 20px;
-    border: 1px solid #000000;
+section > p {
+    color: rgb(231, 231, 231);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.0em;
+    
 }
+div > main {
+    
+    background-color:#312e2ef1;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #dd4a1d91;
+    border-radius: 5px;
+}
+
+.logo {
+    text-align: right;
+}
+
+.logo > img {
+    border-radius: 50%;
+}
+
+
