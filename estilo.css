@@ -15,19 +15,39 @@
 
 header {
     width: 100%auto;
-    height: 120px;
+    height: 130px;
+    
+}
+.t1 {
+    margin-top: -35px;
 }
 
+.t1 .thanos {
+    margin: -88px -29px -10px -20px;
+    animation: fadeIn 1s cubic-bezier(0.895, 0.03, 0.550, 0.22)
+}
+.span1 {
+    margin: 10px 51px 10px 37px;
+}
 
+@keyframes fadeIn {
+    from {
+        transform: translatey(-90%);
+        opacity: 0;
+    }
+  to {
+    opacity: 1;
+}
+}
 h1 {
     font-family: 'Bungee Spice', cursive;
     letter-spacing: 1px;
     color: rgb(189, 167, 152);
     text-shadow: 4px 2px 3px black;
     font-size: 3.9em;
-
-
 }
+
+
 
 .span1 {
     animation: text .8s cubic-bezier(0.175, 0.885, 0.20, 1.350);
@@ -47,12 +67,16 @@ header > h3 {
     font-family: 'Carton', cursive;
     text-shadow: 4px 2px 3px black;
     margin-bottom: -80px;
+    margin-top: 24px;
+    margin-left: 17px;
     
     
 }
 h1, h3 {
    padding: 20px;
 }
+
+
 
 header  {
     background-image: linear-gradient(48deg, #190a00b0,#f57c2cce,#f26100c5,#5c3921d0,#F26100 );
@@ -176,7 +200,7 @@ a img:hover {
 /*CORPO HOME*/
 
 
-body {
+ body {
     background-image: url(Imagens/6113569.jpg);
     background-repeat: no-repeat;
     
@@ -191,14 +215,15 @@ section > p {
 div > main {
     
     background-color:#312e2ef1;
-    padding: 20px;
+    padding: 15px;
+    margin-left: 445px;
     min-width: 300px;
     max-width: 500px;
-    margin: auto;
-    margin-top: 20px;
     border: 1px solid #dd4a1d91;
     border-radius: 5px;
 }
+
+
 
 .logo {
     text-align: right;
@@ -208,4 +233,71 @@ div > main {
     border-radius: 50%;
 }
 
+/***FORMULARIO****/
+
+input, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 3px;
+
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block ;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 2em;
+}
+
+.campo input[type="text"], .campo input[type="tel"],.campo input[type="email"]{
+    padding: 0.5em;
+    border: 1px solid;
+    height: 40px;
+    width: 300px;
+    font-size: medium;
+}
+
+.campo textarea{
+    padding: 0.5em;
+    border: 1px solid;
+    height: 60px;
+    width: 300px;
+    font-size: large;
+}
+
+form {
+    text-align:center;
+    display: block;
+  }
+
+.Conteiner{
+    border: solid 3px #190a00;
+    margin: 100px 300px 200px 650px;
+    padding: 3px;
+    background-color: #f26100;
+    
+}
+
+button{
+    color: #F26100;
+    background-color: #190a00;
+    font-size: x-large;
+    height: 40px;
+    width: 300px;
+}
+
+button:hover{
+    background-color: #5c3921;
+    color: #f26100;
+    transition: 0.5s;
+}
+
+.contato {
+    background-image: linear-gradient(to bottom, #f26100,#381803);
+}
 
