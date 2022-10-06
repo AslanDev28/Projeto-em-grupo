@@ -354,9 +354,12 @@ button:hover{
 .footer-container{
     bottom: 0;
     background-color: #171618;
-  
+    height: 100%;
+    max-width: 100%;
     text-align: left;
-    padding: 30px;
+    padding: 30px 30px 30px 30px;
+    margin-top: 80px;
+    
     
 }
 
@@ -365,6 +368,8 @@ button:hover{
 .footer-container .footer-content-3{
 display: inline-block;
 vertical-align: top;
+max-width: 900px;
+min-width: 300px;
 }
 
 .footer-container > .footer-content-1 > p {
@@ -397,18 +402,83 @@ vertical-align: top;
     border-radius: 50%;
     text-align: center;
     line-height: 35px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 30px;
     
 }
 
 .footer-container .footer-content-2 p{
     display: inline-block;
     background: none;
-    margin-left: -45px;
-
-
+    margin-left: -50px;
+    
+    
 }
 
+
+
+.footer-container .footer-empresa span {
+    display: block;
+    color:  #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+
+.footer-container .footer-icons .fa{
+    background: #fff;
+    display: block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #829990;
+    text-align: right;
+    padding: 5px;
+    margin: 5px 5px 12px 12px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    font-size: 24px;
+    }
+
+
+.footer-container .footer-content-3 p{
+        color: #929990;
+        font-size: 13px;
+        padding: 7% 10px 10px 200px;
+        margin-top: 10px;
+        text-align: end;
+        
+        
+        
+}
+
+.footer-container .footer-content-3 {
+   
+    margin-top: -230px;
+    margin-left: 90px;
+   
+    
+    
+}
+
+
+.footer-container .footer-empresa span {
+    display: block;
+    color:  #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    
+}
+
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+}
 
 
 
@@ -424,4 +494,39 @@ vertical-align: top;
     0 0 20px #ccc;
 }
 
+.footer-container .copyright{
+    width: 100%
+}
+    .footer-container .copyright p{
+     text-align: center;
+     color:#829990;
+     padding: 5px;
+     font-size: 12px;
+}
+
+
+
+ /*footer responsivo*/
+ @media (max-width: 880px) {
+    footer { position: static;}
+    .footer-container{padding: 10px;}
+    .footer-container .footer-content-1,
+    .footer-container .footer-content-2,
+    .footer-container .footer-content-3{
+    display: block;
+    width: 100%;
+    text-align: center;
+    }
+    .footer-container .footer-content-2 i{
+    margin-left: 0;
+    }
+    .footer-container h3{
+    font-size: 20px;
+    }
+    hr{
+     margin:0 auto 0;
+     width: 100%;
+    }
+}
+    
 
