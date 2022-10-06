@@ -23,11 +23,11 @@ header {
 }
 
 .t1 .thanos {
-    margin: -88px -29px -10px -20px;
+    margin: -88px -29px -10px -35px;
     animation: fadeIn 1s cubic-bezier(0.895, 0.03, 0.550, 0.22)
 }
 .span1 {
-    margin: 10px 51px 10px 37px;
+    margin: 10px 51px 10px 70px;
 }
 
 @keyframes fadeIn {
@@ -69,7 +69,7 @@ header > h3 {
     font-family: 'Carton', cursive;
     text-shadow: 4px 2px 3px black;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 72px;
 }
     
     
@@ -503,7 +503,6 @@ min-width: 300px;
      padding: 5px;
      font-size: 12px;
 }
-
 
 
  /*footer responsivo*/
