@@ -1,0 +1,232 @@
+/*MENU-NAV*/
+
+
+
+
+#check {
+    display: none;
+}
+
+#icone {
+    cursor: pointer;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
+    margin-top: -180px;
+}
+
+
+
+.barra {
+    background-color: #202020;
+    height: 920px;
+    width: 200px;
+    margin-top: -220px;
+    position: fixed;
+    transition: all .2s linear;
+    left: -200px;
+    
+}
+
+hr {
+    margin-top: 50px;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    
+}
+
+nav a {
+    text-decoration: none;
+   
+}
+
+
+
+.link {
+    background-color: rgb(13, 15, 15);
+    padding: 20px;
+    font-family: 'Arial';
+    font-size: 11pt;
+    transition: all .2s linear;
+    color: azure;
+    border-bottom: 2px solid black;
+    opacity: 0;
+    margin-top: 200px;
+}
+
+.link:hover {
+    background-color: #F26100;
+}
+
+#check:checked ~ .barra {
+    transform: translateX(200px);
+}
+
+#check:checked ~ .barra nav a .link{
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: .1s;
+}
+
+.divisor {
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    line-height: 70px;
+    border-bottom: 3px double #000000;
+    border-top: 3px double #000000;
+}
+
+.social {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.flex-logo > div > img {
+    display: inline-block;
+    margin-left: 32%;
+    margin-top: 46px;
+    border-radius: 50%;
+    
+}
+
+
+.divisor > a:hover {
+    transform: scale(1.4);
+    transition: all .1s linear;
+}
+
+a img:hover {
+    background-color: #F26100;
+    border-radius: 50%;
+}
+
+
+
+
+/*CABECALHO FORM*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(Brasa.jpg);
+}
+
+
+header  {
+    background-image: linear-gradient(48deg, #190a00b0,#f57c2cce,#f26100c5,#5c3921d0,#F26100 );
+    background-size: 300% 300%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    text-align: center;
+    padding: 80px;
+    margin-top: -80px;
+    max-width: 100%;   
+    height: 100px;
+    animation:infinite alternate colors 10s ease;
+
+}
+
+@keyframes colors {
+    from {
+    background-position: 0% 50%;
+
+    }
+    to {
+    background-position: 100% 0%;
+    }
+   
+}
+
+.formh2 {
+    margin-top: 65px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(245, 245, 245);
+    text-shadow: 4px 2px 3px black;
+    font-size: 1.8em;
+    
+}
+
+/* ======== AQUI COMEÇA O FORMULARIO ======== */
+
+header, #Formulario {
+    padding: 80px;
+}
+
+
+input, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 3px;
+
+}
+
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block ;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 2em;
+}
+
+.campo input[type="text"], .campo input[type="tel"],.campo input[type="email"]{
+    padding: 0.5em;
+    margin-top: 10px;
+    border: 1px solid;
+    height: 40px;
+    width: 300px;
+    font-size: medium;
+}
+
+.campo textarea{
+    padding: 0.5em;
+    border: 1px solid;
+    height: 60px;
+    width: 300px;
+    font-size: large;
+}
+
+form {
+    text-align:center;
+    display: block;
+  }
+
+.Conteiner{
+    border: solid 3px #190a00;
+    margin: auto;
+    background-color: #f26100;
+    min-width: 200px;
+    max-width: 350px;
+}
+
+button{
+    color: #F26100;
+    background-color: #190a00;
+    font-size: x-large;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+button:hover{
+    background-color: #5c3921;
+    color: #f26100;
+    transition: 0.5s;
+}
