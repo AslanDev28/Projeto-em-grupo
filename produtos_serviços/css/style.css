@@ -1,5 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 
+
+/*MENU */
+
+.barra > nav {
+  background-color: #202020; 
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  animation: fadeIn2 .3s linear;
+  border-bottom:2px solid #000; 
+}
+
+
+
+@keyframes fadeIn2 {
+  from {
+      transform: translateY(-100%);
+  }
+ 
+}
+
+
+
+
+nav a {
+  text-decoration: none;
+ 
+}
+
+
+
+.link {
+  border-radius: 5px;
+  padding: 17px;
+  font-family: 'Arial';
+  font-size: 11pt;
+  transition: all .1s linear;
+  color: azure;
+  border-radius: 1px;
+  margin-left: 25px;
+  margin-right: 16px;
+  
+  
+}
+
+
+.link:hover{
+  background-color: #F26100;
+  padding: -10px -10px;
+  margin-bottom: 5px;
+  margin-top: 4px;
+  border-radius: 5px;
+  
+}
+
+.link:active {
+  background-color: #611903!important;
+}
+
+
+.flexsocial {
+  margin-left: 85vmax;
+  width: 100px;
+}
+
+
+
+.flexsocial , .flex {
+  padding: 20px;
+  margin-top: -42px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  
+
+  
+  
+}
+
+.flexsocial  a:hover {
+  transform: scale(1.1);
+  transition: all .4s ease;
+  transition-delay: 1ms;
+  
+}
+
+a img {
+  background-color: #829990;
+  animation: fadeIn3 1s ease;
+  border-radius: 50%;
+}
+
+@keyframes fadeIn3 {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+a img:hover {
+  background-color: #F26100;
+  border-radius: 50%;
+  transition: all .1s ease;
+  
+  
+}
+
+a img:active {
+  background-color: #833b25!important;
+}
+
+
+
+
+
+
 /*CSS RESET*/
 * {
   margin: 0;

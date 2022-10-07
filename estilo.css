@@ -4,6 +4,10 @@
 
 }
 
+
+
+
+
 @font-face {
     font-family:'Carton';
     src: url(Fonte\ personalizada/cartoonist_kooky.ttf) format('TrueType');
@@ -108,41 +112,34 @@ header  {
 }
 
 /*MENU-NAV*/
-#check {
-    display: none;
-}
-
-#icone {
-    cursor: pointer;
-    padding: 15px;
-    position: fixed;
-    z-index: 1;
-    margin-top: -210px;
-}
 
 
 
-.barra {
-    background-color: #202020;
-    height: 920px;
-    width: 200px;
-    margin-top: -250px;
-    position: fixed;
-    transition: all .2s linear;
-    left: -200px;
-    
-}
 
-hr {
-    margin-top: 50px;
-}
-
-nav {
+.barra > nav {
+    background-color: #202020; 
+    height: 50px;
     width: 100%;
-    position: absolute;
-    top: 100px;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    animation: fadeIn2 1s linear;
+    border-bottom:2px solid #000; 
 }
+
+
+
+@keyframes fadeIn2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
 
 nav a {
     text-decoration: none;
@@ -152,68 +149,87 @@ nav a {
 
 
 .link {
-    background-color: rgb(13, 15, 15);
-    padding: 20px;
+    border-radius: 5px;
+    padding: 17px;
     font-family: 'Arial';
     font-size: 11pt;
-    transition: all .2s linear;
+    transition: all .1s linear;
     color: azure;
-    border-bottom: 2px solid black;
-    opacity: 0;
-    margin-top: 200px;
-}
-
-.link:hover {
-    background-color: #F26100;
-}
-
-#check:checked ~ .barra {
-    transform: translateX(200px);
-}
-
-#check:checked ~ .barra nav a .link{
-    opacity: 1;
-    margin-top: 0;
-    transition-delay: .1s;
-}
-
-.divisor {
-    margin-top: 40px;
-    height: 50px;
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    line-height: 70px;
-    border-bottom: 3px double #000000;
-    border-top: 3px double #000000;
-}
-
-.social {
-    margin-top: 100px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-}
-
-.flex-logo > div > img {
-    display: inline-block;
-    margin-left: 32%;
-    margin-top: 46px;
-    border-radius: 50%;
+    border-radius: 1px;
+    margin-left: 25px;
+    margin-right: 16px;
+    
     
 }
 
 
-.divisor > a:hover {
-    transform: scale(1.4);
-    transition: all .1s linear;
+.link:hover{
+    background-color: #F26100;
+    padding: -10px -10px;
+    margin-bottom: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    
 }
+
+.link:active {
+    background-color: #611903!important;
+}
+
+
+.flexsocial {
+    margin-left: 85vmax;
+    width: 100px;
+}
+
+
+
+.flexsocial , .flex {
+    padding: 20px;
+    margin-top: -42px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+  
+    
+    
+}
+
+.flexsocial  a:hover {
+    transform: scale(1.1);
+    transition: all .4s ease;
+    transition-delay: 1ms;
+    
+}
+
+a img {
+    background-color: #829990;
+    animation: fadeIn3 1s ease;
+    border-radius: 50%;
+}
+
+@keyframes fadeIn3 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 a img:hover {
     background-color: #F26100;
     border-radius: 50%;
+    transition: all .1s ease;
+    
+    
+}
+
+a img:active {
+    background-color: #833b25!important;
 }
 
 
