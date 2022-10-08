@@ -67,7 +67,6 @@ arrayBuyBtn.forEach((item) => {
 })
 
 window.addEventListener('click', (e) => {
-  e.preventDefault();
   const el = e.target;
   if (el.classList.contains('fa-trash')) {
     const elPrincipal = el.parentElement.parentElement;
