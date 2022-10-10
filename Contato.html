@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="Estilo-form/estilo-form.css">
+    <script src="script-index.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Dancing+Script:wght@400;500;600;700&family=Nabla&family=Raleway:wght@300&display=swap');
+    
+    </style>
+</head>
+<body class="contato">
+    <!-- ========== AQUI COMEÇA O FORMULARIO ========== -->
+    <header>
+        <h2 class="formh2">Preencha o formulário! <br> Nossa equipe entrará em contato em breve!</h2>
+    </header>
+</header>
+<input type="checkbox" id="check">
+<label id="icone" for="check">  <img src="Imagens/sala-de-estudo-tutorial-menu-lateral-retratil-com-css3-n-1-sem-javascript-icone.png" alt=""></label>
+
+<input class="second" type="checkbox" id="check">
+<label id="icone" for="check">  <img src="Imagens/sala-de-estudo-tutorial-menu-lateral-retratil-com-css3-n-1-sem-javascript-icone.png" alt=""></label>
+    <!--NAV-LATERAL-->
+    <div class="barra">
+        <nav>
+        <a href="index-home.html"> <div class="link">Quem somos</div></a>
+        <a href="produtos_serviços/index.html"> <div class="link">Nossos produtos</div></a>
+        <a href="equipe.html"> <div class="link">Nossa equipe</div></a>
+        <a href="Contato.html"> <div class="link">Contate-nos</div></a>
+        <hr>
+        <div class="flex-logo" >
+        <div><img height="90" width="90" src="Imagens/Newlogo.jpeg" alt=""></div></div>
+        <hr class="hr2">
+    <div class="divisor"> 
+        <a href="https://www.facebook.com">
+    <div class="face"><img width="30" src="Imagens/Face transp.png"  alt="Facebook"></div></a>
+        <a href="https://www.instagram.com/burguerversus.rio/?igshid=YmMyMTA2M2Y%3D">
+    <div><img width="30" src="Imagens/Insta transp.png" alt="Instagram"></div></a><a href="https://twitter.com">
+    <div><img width="30" src="Imagens/Twitter transp.png" alt=""></div></a>
+    </div>
+    </nav>
+    </div>
+    <section id="Formulario">
+        <div class="envie">
+        </div>
+
+         <form method="post" action="" onSubmit="return ( verifica() )" name="formEnvia">
+
+            <div class="Conteiner">
+                <div class="campo">
+                <label for="username"></label>
+                <input name="nome" type="text" class="input" id="nome" placeholder="Digite seu nome" required/>
+                <br>
+                </div>
+
+            <div class="campo">
+                <label for="telefone"></label>
+                <input name="telefone" type="tel" class="input" id="telefone" placeholder="Telefone" required/>
+                <br>
+                </div>
+
+            <div class="campo">
+                <label for="email"></label>
+                <input name="email" type="text" class="input" id="email" placeholder="E-mail" onblur="checarEmail();" />
+                <br>
+            </div>
+
+            <div class="campo">
+                <br>
+                <label for="envie sua mensagem"></label>
+                <textarea type="envie" name="envie" id="envie" placeholder="Envie sua mensagem!" ></textarea>
+                <br>
+            </div>
+
+            <button type="submit" >Enviar</button>
+
+        </form>
+    </section>
+
+    <div class="container">
+		<footer class="footer-container">
+			<div class="footer-content-1">
+				<p class="footer-p">
+					<a href="#">Página inicial</a>
+					<a href="#">Canal</a>
+					<a href="#">Saiba mais</a>
+				</p>
+	        </div>
+			<div class="footer-content-2">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><a href="https://goo.gl/maps/LV5ZXodr5PbFV95a9">
+						Rua da Feira, Bangu, Rio de janeiro
+					</a></p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:suporteburgverse@hotmail.com">
+						suporteburgverse@hotmail.com
+					</a></p>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<p><a href="tel:(21)970707070">(21)   970707070</a></p>
+				</div>
+		
+			</div>
+			<div class="footer-content-3">
+				<p class="footer-empresa">
+					<span class="Pag">Formas de pagamento</span>
+				
+				<div class="footer-icons">
+					<img src="Imagens-rodapé/ic-mastercard.png" alt="">
+                    <img src="Imagens-rodapé/ic-elo.png" alt="">
+                    <img src="Imagens-rodapé/ic-hipercard.png" alt="">
+                    <img src="Imagens-rodapé/ic-visa.png" alt="">
+                    <img src="Imagens-rodapé/ic-discover.png" alt="">
+                    <img src="Imagens-rodapé/ic-caixa.png" alt="">
+                    <img src="Imagens-rodapé/ic-amex.png" alt="">
+				</div>
+				<hr>
+				<p class="Ltda">©2022 Web Online Desenvolve Ltda.</p>
+			</div>
+			<div class="copyright">
+				<hr>
+				<div>
+                    <p>©Copyright. Todos os direitos reservados.</p>
+                </div>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>
